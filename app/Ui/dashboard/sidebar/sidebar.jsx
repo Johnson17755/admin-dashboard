@@ -3,6 +3,7 @@ import styles from './sidebar.module.css';
 import { MdDashboard, MdSupervisedUserCircle, MdShoppingBag, MdWork, MdAnalytics, MdPeople, MdAttachMoney, MdOutlineSettings, MdHelpCenter, MdLogout,} from "react-icons/md";
 import MenuLink from './menuLink/menuLink';
 import Image from 'next/image';
+import { auth } from '@/app/auth';
 
 const menuItems = [
   {

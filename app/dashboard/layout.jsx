@@ -4,7 +4,7 @@ import Sidebar from '../Ui/dashboard/sidebar/sidebar'
 import styles from '../Ui/dashboard/dashboard.module.css' 
 import Footer from './Footer/footer'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
         <div className={styles.menu}>
